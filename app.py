@@ -1,6 +1,6 @@
 import json
 from flask import Flask, abort, jsonify, request
-from flask_restx import Api, Resource
+from flask_restx import Api, Resource  # type: ignore
 
 PAGE_SIZE = 25
 
